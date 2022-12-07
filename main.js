@@ -95,6 +95,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       const newElement = new ToDo(todoInput.value, false);
       todos.push(newElement);
       todoInput.value = "";
+      uploadLocalStorage();
       updateToDoListOnScreen();
     }
   });
@@ -105,3 +106,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 });
 
+function loadStorage()
+{
+  alert("My ass");
+}
+
+function uploadLocalStorage()
+{
+  localStorage.setItem("todo", "My cat");
+}
