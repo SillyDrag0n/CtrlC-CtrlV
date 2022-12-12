@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 function loadStorage()
 {
-  alert("Hey guys, did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans?");
+  alert("Luca Viggiano's Lieblingssong ist Last Christmas");
 }
 
 function uploadLocalStorage()
