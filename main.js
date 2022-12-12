@@ -113,5 +113,6 @@ function loadStorage()
 
 function uploadLocalStorage()
 {
-  localStorage.setItem("todo", "My cat");
+  localStorage.setItem("todo", "Tillene Fischer - MIGULOS DURCH DIE NACHT");
+  localStorage.setItem("todo", "Egal, du hattest mich nach dem Hallo");
 }
