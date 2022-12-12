@@ -1,11 +1,10 @@
 body {
   width: auto;
-  min-width: 230px;
+  min-width: 300px;
   max-width: 550px;
   margin: 0 auto;
-  background: #f5f5f5;
+  background: url(https://media.tenor.com/Z3MLscFkWMgAAAAM/goat.gif);
 }
-
 .todoapp {
   margin: 140px 0 40px 0;
   position: relative;

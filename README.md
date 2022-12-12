@@ -1,11 +1,29 @@
-"# CtrlC-CtrlV" 
-Hey guys, did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans? Not only are they in the field egg group, which is mostly comprised of mammals, Vaporeon are an average of 3"03' tall and 63.9 pounds. this means they're large enough to be able to handle human dicks, and with their impressive Base stats for HP and access to Acid Armor, you can be rough with one. Due to their mostly water based biology, there's no doubt in my mind that an aroused Vaporeon would be incredibly wet, so wet that you could easily have sex with one for hours without getting sore. They can also learn the moves Attract, Baby-Doll eyes, Captivate, Charm and Tail Whip along with not having fur to hide nipples, so it'd be incredibly easy for one to get you in the mood. With their abilities Water Absorb and Hydration, they can easily recover from fatigue with enough water. No other Pokémon comes close with this level of compatibility. Also, fun fact, if you pull out enough, you can make your Vaporeon turn white. Vaporeon is literally built for human dick. Ungodly defense stat + high HP pool + Acid Armor means it can take cock all day, all shapes and sizes and still come for more.
+Vorstellungsletter
 
-Yo Bro what is Poppin ich bin Luca Viggiano aka Xx_SwagGodLuca_xX und ich bin der abgespacete Klassenchef der Inf20dL der als Hobby deine Mutter bangt weil ich so ein geiler Motherfucker bin meine Age ist actually 35 aber weil ich so fresh und young bin steht auf meinem Passport das ich 24 years old bin ich bin ausserdem twice as high as your dad (literally).
-Anyways ihr Mommymilkdrinker, ich asken ob die Whacke Inf20s Klasse bitte ohne Gegenwehr agreen könnte den Anstehenden M326 Test um eine Week zu delayen da der Lagger im Unterricht heavy am RumLAGGEN ist und das so not fair ist weil er uns immer mit Lagswitchcombos wegbeamt und weil wir in 2 Wochen schon 3 Tests am been haven habe ich da voll keinen Bock drauf Yo, falls ihr diese Request denien solltet dann macht euch auf neue Geschwister gefasst denn ich werde dann so brutally eure Moms bangen das ihr denkt ihr seid gerade auf nem Heavy Metal-Concert also thinked am besten gut about it before ihr etwas do't was ihr später regretten werdet.
-Ich hope ich habe mich clear enough ausgedrückt und wir können das ganze hier ohne big Problems solven.
+Eyo, whaddup kids wir sind die "Did you know"-Kultisten und werden soon das Universe overtaken.
 
-PS: Ich force meinen Stellvertreter euch diese Message zu senden weil ich gerade andere things zum doen habe als unimportant failures wie euch nachrichten zu senden ihr seid so hard cringe es ist unbelievable
+Die Members unseres Cults sind:
 
-Swagliche Greetings
-Luca Viggiano
+1. Luca Swagciano
+2. Xx_MiguGamingHDProHeadshots_xX (Schlagersänger)
+3. Xx_Deckenventilator_xX (der Typ über mir hat das Xx gecopied.)
+4. Louis Simpmer (der für Power simped)
+5. Silberne_WindmühleHD
+
+we werden uns shortly introducen weil were so krass sind.
+
+Luca Swagciano
+Ich bin Luca Swagciano mein absolute favorite Song is "Last Christmas" das ist such a big Banger und ich würde die whole world exploden lassen das der Song survived.
+
+Xx_MiguGamingHDProHeadshots_xX
+Yo ich bin Miguelito bonito und ich bin known for hits wie "Atemlos through Miguel" oder for the Banger "Egal, du hattest mich nach dem Miguel"
+I am the most extrovertierte Person in the existence of the Menschheit und when ihr mich anspeaken wollt dann please only mit meinem Gamertag weil ihr for meinen realen Name nicht valuable enough seid.
+
+Xx_Deckenventilator_xX (der Typ über mir hat das Xx gecopied.)
+I am der Manager of Xx_MiguGamingHDProHeadshots_xX und habe ihn big rausgebracht only wegen mir kamen solche Songs wie Atemlos through Miguel and so on zustande, he claims something else aber i have him unter Vertrag and if he does irgendwas womit ich not agree dann kann ich his biggest hits easily claimen und ihn ruinieren.
+
+Louis Simpmer (der für Power simped)
+Das einzige wofür er known ist, ist das er für Power und Xx_MiguGamingHDProHeadshots_xX simped, er hat einen Mindestdistancecontract mit Xx_MiguGamingHDProHeadshots_xX gesigned weil der him sonst Power weggestealt hätte.
+
+Silberne_WindmühleHD
+Catfan und loved es andere zu trollen vor allem mit seiner angeblich bad communication fooled er alle und makes it immer possible das andere verzweifeln und suicide begehen wanten, er ist a troll wie er in a Book steht.

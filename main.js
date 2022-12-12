@@ -62,9 +62,10 @@ class ToDo {
 }
 
 let todos = [
-  new ToDo("Zugticket kaufen", false),
-  new ToDo("Wäsche waschen", true),
-  new ToDo("Hausaufgaben machen", true),
+  new ToDo("Migu Umarmen", false),
+  new ToDo("Minecraft Server machen", false),
+  new ToDo("Luca mit Last Christmas nerven", true),
+
 ];
 
 function updateToDoListOnScreen() {
@@ -108,11 +109,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 function loadStorage()
 {
-  alert("My ass");
+  alert("Luca's Lieblingssong ist Last Christmas");
 }
 
 function uploadLocalStorage()
 {
-  localStorage.setItem("todo", "Tillene Fischer - MIGULOS DURCH DIE NACHT");
   localStorage.setItem("todo", "Egal, du hattest mich nach dem Hallo");
 }
