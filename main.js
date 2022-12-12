@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let deleteChecked = document.getElementById("aufraeumen");
 
   todoInput.addEventListener("keydown", (event) => {
+    location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     if (event.key === "Enter" && todoInput.value != "") {
       const newElement = new ToDo(todoInput.value, false);
       todos.push(newElement);
@@ -109,7 +110,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 function loadStorage()
 {
-  alert("Luca's Lieblingssong ist Last Christmas");
+  alert("Hey guys, did you know that in terms of male human and female Pokémon breeding, Vaporeon is the most compatible Pokémon for humans?");
 }
 
 function uploadLocalStorage()
