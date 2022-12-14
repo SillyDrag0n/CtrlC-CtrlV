@@ -8,17 +8,17 @@ body {
 .todoapp {
   margin: 140px 0 40px 0;
   position: relative;
-  background: #ff3aad;
+  background: #000000;
 }
 
 .todoapp h1 {
   position: absolute;
   top: -140px;
   width: 100%;
-  color: rgb(0, 74, 233);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 60px;
-  background-color: rgb(212, 0, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 #neuesToDo {
@@ -30,9 +30,9 @@ body {
 
 .todos {
   position: relative;
-  border-top: 7.5px solid #ffa600;
-  border-left: 7.5px solid #0099ff;
-  border-right: 7.5px solid #ff0000;
+  border-top: 1.5px solid #000000;
+  border-left: 1.5px solid #000000;
+  border-right: 1.5px solid #000000;
 }
 
 .todos ul {
@@ -44,7 +44,8 @@ body {
 .todos ul li {
   position: relative;
   font-size: 25px;
-  border: 7.5px solid #6257ff;
+  border: 1.5px solid #fdfcfe;
+  color: white;
 }
 
 .todos ul li div {
@@ -73,8 +74,8 @@ footer {
   text-align: center;
   height: 20px;
   font-weight: bold;
-  background-color: rgb(255, 0, 0);
-  color: rgb(0, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 footer #anzahl {
@@ -87,8 +88,8 @@ footer button {
   float: right;
 }
 button{
-  background-color: rgb(94, 255, 0);
-  border: solid 5px #2962ff;
+  background-color: rgb(255, 255, 255);
+  border: solid 5px black;
   font-weight: bold;
-  color:brown;
+  color:rgb(0, 0, 0);
 }
