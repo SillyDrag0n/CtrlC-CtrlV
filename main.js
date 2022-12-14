@@ -88,7 +88,7 @@ if(localStorage.length= 0){  for (const todo of todos) {
   elementAnzahl.textContent = `${offeneToDos.length} ToDo's offen`;
 
 //set current List in local storage
-  localStorage.setItem(todoListElement, todoListElement);
+localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
