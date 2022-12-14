@@ -75,15 +75,20 @@ function updateToDoListOnScreen() {
   todoListElement.innerHTML = "";
 
   // ToDo's einfügen
-  for (const todo of todos) {
+if(localStorage.length= 0){  for (const todo of todos) {
     const toDoListEntry = todo.element();
     todoListElement.appendChild(toDoListEntry);
-  }
+  }}else{  for (localStorage.getItem of todos) {
+    //add logic
+  }}
 
   // offene ToDo's
   const offeneToDos = todos.filter((offen) => !offen.erledigt);
   const elementAnzahl = document.getElementById("anzahl");
   elementAnzahl.textContent = `${offeneToDos.length} ToDo's offen`;
+
+//set current List in local storage
+  localStorage.setItem(todoListElement, todoListElement);
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -92,7 +97,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   let deleteChecked = document.getElementById("aufraeumen");
 
   todoInput.addEventListener("keydown", (event) => {
-    location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     if (event.key === "Enter" && todoInput.value != "") {
       const newElement = new ToDo(todoInput.value, false);
       todos.push(newElement);
