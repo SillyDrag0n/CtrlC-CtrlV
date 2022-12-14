@@ -69,7 +69,7 @@ let todos = [
 ];
 
 function updateToDoListOnScreen() {
-  const todoListElement = document.getElementById("todolist");
+  let todoListElement = document.getElementById("todolist");
 
   // Liste leeren
   todoListElement.innerHTML = "";
@@ -78,17 +78,15 @@ function updateToDoListOnScreen() {
 if(localStorage.length= 0){  for (const todo of todos) {
     const toDoListEntry = todo.element();
     todoListElement.appendChild(toDoListEntry);
-  }}else{  for (localStorage.getItem of todos) {
-    //add logic
-  }}
+  }}else{ 
+    todos = JSON.parse(localStorage.getItem("ToDo's"))
+  }
 
   // offene ToDo's
   const offeneToDos = todos.filter((offen) => !offen.erledigt);
   const elementAnzahl = document.getElementById("anzahl");
   elementAnzahl.textContent = `${offeneToDos.length} ToDo's offen`;
-
-//set current List in local storage
-localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
+  uploadLocalStorage();
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -119,5 +117,5 @@ function loadStorage()
 
 function uploadLocalStorage()
 {
-  localStorage.setItem("todo", "Egal, du hattest mich nach dem Hallo");
+localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
 }
