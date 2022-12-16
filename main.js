@@ -92,7 +92,6 @@ function updateToDoListOnScreen() {
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
-  updateToDoListOnScreen();
   let todoInput = document.getElementById("neuesToDo");
   let deleteChecked = document.getElementById("aufraeumen");
 
@@ -109,12 +108,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   deleteChecked.addEventListener("click", (event) => {
     todos = todos.filter((todo) => !todo.erledigt);
     updateToDoListOnScreen();
+    
   })
+        updateToDoListOnScreen();
 });
-
-function loadStorage() {
-  alert("Luca Viggiano's Lieblingssong ist Last Christmas");
-}
 
 function uploadLocalStorage() {
   localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
