@@ -75,10 +75,12 @@ function updateToDoListOnScreen() {
   todoListElement.innerHTML = "";
 
   // ToDo's einfügen
-if(localStorage.length= 0){  for (const todo of todos) {
-    const toDoListEntry = todo.element();
-    todoListElement.appendChild(toDoListEntry);
-  }}else{ 
+  if (localStorage.length = 0) {
+    for (const todo of todos) {
+      const toDoListEntry = todo.element();
+      todoListElement.appendChild(toDoListEntry);
+    }
+  } else {
     todos = JSON.parse(localStorage.getItem("ToDo's"))
   }
 
@@ -110,12 +112,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   })
 });
 
-function loadStorage()
-{
+function loadStorage() {
   alert("Luca Viggiano's Lieblingssong ist Last Christmas");
 }
 
-function uploadLocalStorage()
-{
-localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
+function uploadLocalStorage() {
+  localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
 }
