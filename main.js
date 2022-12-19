@@ -1,3 +1,4 @@
+
 class ToDo {
   #titel = "";
   #erledigt = "";
@@ -41,11 +42,13 @@ class ToDo {
     buttonElement.className = "loeschen";
     buttonElement.addEventListener("click", event => {
       todos.splice(todos.indexOf(this), 1);
+      uploadLocalStorage();
       updateToDoListOnScreen();
     })
 
     checkboxElement.addEventListener("change", event => {
       this.#erledigt = !this.#erledigt;
+      uploadLocalStorage();
       updateToDoListOnScreen();
     })
 
@@ -61,34 +64,46 @@ class ToDo {
   }
 }
 
-let todos = [
-  new ToDo("Migu Umarmen", false),
-  new ToDo("Minecraft Server machen", false),
-  new ToDo("Luca mit Last Christmas nerven", true),
-
-];
+let todos = [] ;
 
 function updateToDoListOnScreen() {
+  if(localStorage.getItem("firstTime") == "false"){
+    todos = [] ;
+for(const todoIn of JSON.parse(localStorage.getItem("ToDo's"))){
+todos.push(new ToDo(todoIn.titel,todoIn.erledigt ==true));
+}
+
+  }else{
+    todos=[
+      new ToDo("Migu Umarmen", false),
+      new ToDo("Minecraft Server machen", false),
+      new ToDo("Luca mit Last Christmas nerven", true),
+    
+    ];
+  }
+
+
   let todoListElement = document.getElementById("todolist");
 
   // Liste leeren
   todoListElement.innerHTML = "";
 
   // ToDo's einfügen
-  if (localStorage.getItem('titel') === null) {
     for (const todo of todos) {
       const toDoListEntry = todo.element();
       todoListElement.appendChild(toDoListEntry);
     }
-  } else {
-    todos = JSON.parse(localStorage.getItem("ToDo's"))
-  }
+  
 
   // offene ToDo's
   const offeneToDos = todos.filter((offen) => !offen.erledigt);
   const elementAnzahl = document.getElementById("anzahl");
   elementAnzahl.textContent = `${offeneToDos.length} ToDo's offen`;
+
   uploadLocalStorage();
+  if(localStorage.getItem("firstTime") == "false"){
+    console.log(localStorage.getItem("ToDo's"));
+  }
 
 }
 
@@ -108,6 +123,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
   deleteChecked.addEventListener("click", (event) => {
     todos = todos.filter((todo) => !todo.erledigt);
+    uploadLocalStorage();
     updateToDoListOnScreen();
     
   })
@@ -115,5 +131,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function uploadLocalStorage() {
+  localStorage.clear();
   localStorage.setItem("ToDo's", JSON.stringify(todos, ["titel", "erledigt"]));
+  localStorage.setItem("firstTime","false");
+  
 }
