@@ -75,7 +75,7 @@ function updateToDoListOnScreen() {
   todoListElement.innerHTML = "";
 
   // ToDo's einfügen
-  if (localStorage.length = 0) {
+  if (localStorage.getItem('titel') === null) {
     for (const todo of todos) {
       const toDoListEntry = todo.element();
       todoListElement.appendChild(toDoListEntry);
@@ -89,6 +89,7 @@ function updateToDoListOnScreen() {
   const elementAnzahl = document.getElementById("anzahl");
   elementAnzahl.textContent = `${offeneToDos.length} ToDo's offen`;
   uploadLocalStorage();
+
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -114,5 +115,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 function uploadLocalStorage() {
-  localStorage.setItem("ToDo's", JSON.stringify(todos, ['titel', 'erledigt']));
+  localStorage.setItem("ToDo's", JSON.stringify(todos, ["titel", "erledigt"]));
 }
